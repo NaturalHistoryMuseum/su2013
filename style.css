@@ -5,6 +5,7 @@ body {
 	padding:0;
 	overflow:hidden;
 	cursor:none;
+	height:1080px;
 }
 *{
 	tap-highlight-color: black;

@@ -25,7 +25,6 @@ $(function(){
 					$(this).removeClass('front');
 					$('.flipbox').css('transform', '');
 					$(this).flippy({
-						color_target: '#b6d635',
 						direction: 'top',
 						duration: '400',
 						verso: '<img src="'+$(this).data('verso')+'" class="verso" width="'+$(this).width()+'" height="'+$(this).height()+'"/>',
