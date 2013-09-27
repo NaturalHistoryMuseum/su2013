@@ -1,5 +1,21 @@
 window.ondragstart = function() { return false; } 
 $(function(){
+	function preload(arrayOfImages) {
+	    $(arrayOfImages).each(function(){
+		$('<img/>')[0].src = this;
+	    });
+	}
+	preload([
+		'1_full.png',
+		'2_full.png',
+		'3_full.png',
+		'4_full.png',
+		'5_full.png',
+		'6_full.png',
+		'7_full.png',
+		'8_full.png',
+		'9_full.png'
+	]);
 	$(document).ready(function(){
 		$('.flipbox').click(function(e){
 			if(!$('.active').length){
