@@ -1,7 +1,6 @@
 window.ondragstart = function() { return false; } 
 $(function(){
 	$(document).ready(function(){
-		$('*').disableSelection();
 		$('.flipbox').click(function(e){
 			if(!$('.active').length){
 				$(this).addClass('active');
