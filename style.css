@@ -7,10 +7,14 @@ body {
 	cursor:none;
 }
 *{
+	tap-highlight-color: black;
+	-webkit-tap-highlight-color: black;
+	-moz-tap-highlight-color: black;
+	-webkit-touch-callout: none;
 	-webkit-user-select: none;
 	-khtml-user-select: none;
 	-moz-user-select: none;
-	-o-user-select: none;
+	-ms-user-select: none;
 	user-select: none;
 }
 .flipbox-container{
